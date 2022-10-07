@@ -1,0 +1,29 @@
+{
+  "name": "chainapp",
+  "version": "1.0.0",
+  "description": "A simple learning exercise to develop a social network based on the concept of prayer chains.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitblan/chainapp.git"
+  },
+  "author": "Mitchell Blankenship",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitblan/chainapp/issues"
+  },
+  "homepage": "https://github.com/mitblan/chainapp#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
